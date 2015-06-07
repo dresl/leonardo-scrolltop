@@ -10,16 +10,16 @@ default_app_config = 'leonardo_scrolltop.Config'
 
 class Default(object):
 
-    optgroup = 'Web'
+    optgroup = 'Common'
 
     apps = [
         'leonardo_scrolltop'
     ]
 
-    css_files [
-    	'scrolltop/default.css'
+    css_files = [
+        'scrolltop/default.css'
     ]
- 
+
     widgets = [
         ScrollTopWidget
     ]
