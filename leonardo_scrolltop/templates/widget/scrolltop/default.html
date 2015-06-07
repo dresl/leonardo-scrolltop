@@ -1,0 +1,39 @@
+{% extends widget.get_base_template %}
+
+{% block content %}
+
+<script type="text/javascript">
+function textClear(element)
+		{
+		  if ( element.value != '' )
+		  {
+		      element.value = '';
+		  }
+		}
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 400);
+		        return false;
+		      }
+		    }
+		  });
+		});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 40) {
+        $(".topbuttonnone").addClass("topbutton");
+    } else {
+        $(".topbuttonnone").removeClass("topbutton");
+    }
+});
+</script>
+<div id="pagetop"></div>
+<div><a href="#pagetop" class="topbuttonnone"></a></div>{% endblock %}
