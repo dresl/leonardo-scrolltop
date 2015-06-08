@@ -1,7 +1,7 @@
 {% extends widget.get_base_template %}
 
 {% block content %}
-
+<div><a href="#main_content" class="topbuttonnone"><i class="fa fa-arrow-up"></i></a></div>
 <script type="text/javascript">
 function textClear(element)
 		{
@@ -18,7 +18,7 @@ function textClear(element)
 		      if (target.length) {
 		        $('html,body').animate({
 		          scrollTop: target.offset().top
-		        }, 400);
+		        }, {{ widget.duration }});
 		        return false;
 		      }
 		    }
@@ -35,5 +35,4 @@ $(window).scroll(function() {
     }
 });
 </script>
-<div id="pagetop"></div>
-<div><a href="#pagetop" class="topbuttonnone"></a></div>{% endblock %}
+{% endblock %}

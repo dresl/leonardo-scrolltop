@@ -1,5 +1,5 @@
 include MANIFEST.in
 include README.rst
-recursive-include leonardo-scrolltop/static *
-recursive-include leonardo-scrolltop/locale *
-recursive-include leonardo-scrolltop/templates *
+recursive-include leonardo_scrolltop/static *
+recursive-include leonardo_scrolltop/locale *
+recursive-include leonardo_scrolltop/templates *
