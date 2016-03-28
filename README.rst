@@ -1,6 +1,6 @@
 
 ====================
-Leonardo ScrollTop Widgets
+Leonardo ScrollTop Widget
 ====================
 
 Leonardo ScrollTop allows to scroll up if you are at the bottom of page.
