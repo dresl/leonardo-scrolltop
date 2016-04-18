@@ -1,5 +1,6 @@
 .topbuttonnone {
 	visibility: hidden;
+	width: 40px!important;
 }
 
 .topbutton {
@@ -9,8 +10,8 @@
 	overflow: hidden;
 	text-align: center;
 	z-index: 99999999;
-	background: none repeat scroll 0% 0% rgba(119, 119, 119, 0.2);
-	width: 40px;
+	background: none repeat scroll 0% 0% white;
+	width: 40px!important;
 	height: 40px;
 	line-height: 43px;
 	right: 70px;
@@ -21,7 +22,16 @@
 	visibility: visible;
 }
 
+.topbutton {
+	color: $primary;
+	background: none repeat scroll 0% 0% white
+}
+
+.scrolltop {
+	color: $primary!important;
+}
+
 .topbutton:hover {
-	color: darken($primary,20%);
-	background: none repeat scroll 0% 0% rgba(78, 78, 78, 0.2)
+	color: darken($primary,5%);
+	background: none repeat scroll 0% 0% darken(white,10%)
 }
