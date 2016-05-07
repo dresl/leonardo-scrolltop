@@ -15,15 +15,6 @@ Installation
 
     pip install -e git+https://github.com/dresl/leonardo-scrolltop.git@#egg=leonardo_scrolltop
 
-
-Add ``leonardo_scrolltop`` to APPS list, in the ``local_settings.py``::
-
-    APPS = [
-        ...
-        'leonardo_scrolltop'
-        ...
-    ]
-
 Load new template to db
 
 .. code-block:: bash
