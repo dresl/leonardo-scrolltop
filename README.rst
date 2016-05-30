@@ -13,7 +13,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install -e git+https://github.com/dresl/leonardo-scrolltop.git@#egg=leonardo_scrolltop
+    pip install -e git+https://github.com/leonardo-modules/leonardo-scrolltop#egg=leonardo_scrolltop
 
 Load new template to db
 
