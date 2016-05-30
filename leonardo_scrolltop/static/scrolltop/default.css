@@ -9,7 +9,7 @@
 	position: fixed;
 	overflow: hidden;
 	text-align: center;
-	z-index: 99999999;
+	z-index: 500;
 	background: none repeat scroll 0% 0% white;
 	width: 40px!important;
 	height: 40px;
