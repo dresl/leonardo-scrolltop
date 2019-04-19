@@ -4,13 +4,12 @@
 }
 
 .topbutton {
-	color: $primary;
+	color: #afafaf;
 	font-size: 25px;
 	position: fixed;
 	overflow: hidden;
 	text-align: center;
 	z-index: 500;
-	background: none repeat scroll 0% 0% white;
 	width: 40px!important;
 	height: 40px;
 	line-height: 43px;
@@ -19,14 +18,12 @@
 	border-radius: 4px;
 	transition: all 0.5s ease-in-out;
 	visibility: visible;
-	box-shadow: 0px 0px 10px 1px #ccc
 }
 
 .scrolltop {
-	color: $primary!important;
+	color: #afafaf!important;
 }
 
 .topbutton:hover {
-	color: darken($primary,5%);
-	background: none repeat scroll 0% 0% white;
+	color: darken(#afafaf,5%);
 }
