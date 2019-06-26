@@ -1,9 +1,9 @@
 
-====================
-Leonardo ScrollTop Widget
-====================
+===========================
+Leonardo leonardo-scrolltop
+===========================
 
-Leonardo ScrollTop allows to scroll up if you are at the bottom of page.
+Allows add page thumbnail.
 
 .. contents::
     :local:
@@ -13,15 +13,9 @@ Installation
 
 .. code-block:: bash
 
-    pip install -e git+https://github.com/leonardo-modules/leonardo-scrolltop#egg=leonardo_scrolltop
-
-Load new template to db
-
-.. code-block:: bash
-
-    python manage.py sync_all -f
+    pip install leonardo-scrolltop
 
 Read More
----------
+=========
 
-* https://github.com/django-leonardo
+* https://github.com/django-leonardo/django-leonardo
